@@ -1,0 +1,23 @@
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+}
+
+ body {
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .7);
+    box-shadow: 0 0 5rem rgba(0, 0, 0, .7);
+  }
+
+.cover-container{
+    max-width: 42em;
+    justify-content: center;
+    margin-top: 19%;
+    margin-bottom: 15%;
+    border-radius: 10px;
+}
+
+.btn{
+    font-size: 20px;
+}

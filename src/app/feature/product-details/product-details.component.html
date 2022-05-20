@@ -1,0 +1,46 @@
+<div id="display_details">
+    <div id="pdetail">Product Details</div>        
+    <h4 id="pid">Product Id : <span>{{id}}</span></h4>
+    <h4>Product Name : <span>{{name | uppercase}}</span></h4>
+
+    <h4>Category :
+        <span>{{category}}</span>
+    </h4>
+
+    <h4>Price :
+        <span >{{price | currency:'USD'}}</span>
+    </h4>
+
+    <h4>StockUnits :
+        <span >{{Stock_units}} </span>
+    </h4>
+    <div *ngIf="Stock_units > 10;">
+        <span style="color: rgb(27, 160, 27);">Available</span>
+      </div>
+
+      <div *ngIf="Stock_units <= 10 && Stock_units > 3;">
+        <span style="color:rgb(235, 118, 15);">
+          {{Stock_units}} left </span>
+      </div>
+
+      <div *ngIf="Stock_units <= 3;">
+        <span style="color:rgb(240, 82, 82);">
+          Few in stocks </span>
+      </div>
+
+    <h4>Release Date :
+        <span> {{release_date | date:'mediumDate'}} </span>
+    </h4>
+
+    <h4>Serial Number :
+        <span >{{serial_number}}</span>
+    </h4>
+
+    <h4>Description :
+        <span > {{Description}} </span>
+    </h4>
+
+    <button class="btn" routerLink="/feature/product-list">Back To Product List</button>
+    
+    
+</div> 

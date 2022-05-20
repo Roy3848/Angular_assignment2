@@ -1,0 +1,52 @@
+/* Validation design */
+input.ng-touched.ng-invalid {
+   border: 3px solid green;
+   box-shadow: 0 0 13px;
+}
+select.ng-touched.ng-invalid {
+   border: 2px solid red;
+   box-shadow: 0 0 13px;
+}
+
+select.ng-touched.ng-valid {
+   border: 3px solid green;
+   box-shadow: 0 0 13px;
+}
+
+/* --------------------------- */
+
+.details {
+   font-size: 30px;
+   text-align: center;
+   padding: 10px;
+}
+
+.row {
+   font-size: 18px;
+}
+label {
+   margin-left: 10%;
+   padding-top: 10px;
+}
+.btn {
+   background-color: rgba(250, 210, 34, 0.938);
+   color: black;
+   font-weight: bold;
+   font-size: 18px;
+   margin: 10px;
+   padding: 5px 20px;
+}
+
+.form-control{
+   width: 80%;
+   align-items: center;
+   margin-left: 10%;
+}
+
+.submit {
+   margin-left: 10%;
+}
+
+small {
+   margin-left: 10%;
+}
