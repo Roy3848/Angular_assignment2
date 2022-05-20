@@ -1,0 +1,136 @@
+{
+  "Products": [
+    {
+      "id": "A11",
+      "name": "Samsung",
+      "category": "Phone",
+      "price": 10000.5,
+      "serial_number": "AA11B",
+      "release_date": "2021-06-06",
+      "Stock_units": 11,
+      "Description": "xyz"
+    },
+    {
+      "id": "A12",
+      "name": "Charger",
+      "category": "USB-C",
+      "price": 2000.5,
+      "serial_number": "AA12B",
+      "release_date": "2020-04-01",
+      "Stock_units": 9,
+      "Description": "abc"
+    },
+    {
+      "id": "A13",
+      "name": "Vedio Games",
+      "category": "Sports equipment",
+      "price": 500,
+      "serial_number": "AA13B",
+      "release_date": "2019-09-05",
+      "Stock_units": 5,
+      "Description": "pqr"
+    },
+    {
+      "id": "A14",
+      "name": "Printer",
+      "category": "IT equipment",
+      "price": 4500,
+      "serial_number": "AA14B",
+      "release_date": "2018-07-15",
+      "Stock_units": 15,
+      "Description": "lmn"
+    },
+    {
+      "id": "A15",
+      "name": "Vivo",
+      "category": "Mobile",
+      "price": "200000.78",
+      "serial_number": "A16B",
+      "release_date": "2022-04-16",
+      "Stock_units": "16",
+      "Description": "XYz"
+    },
+    {
+      "id": "A17",
+      "name": "Dell",
+      "category": "Laptop",
+      "price": "40000",
+      "serial_number": "A17B",
+      "release_date": "2019-02-07",
+      "Stock_units": "17",
+      "Description": "abc"
+    },
+    {
+      "id": "3413414",
+      "name": "dqeqe",
+      "category": "Mobile",
+      "price": "78373234",
+      "serial_number": "314134",
+      "release_date": "2022-04-22",
+      "Stock_units": "12",
+      "Description": "fewfewq"
+    },
+    {
+      "id": "34343434",
+      "name": "wefwefw",
+      "category": "Mobile",
+      "price": "424224",
+      "serial_number": "dfw",
+      "release_date": "2022-04-22",
+      "Stock_units": "13413",
+      "Description": "very good"
+    },
+    {
+      "id": "4567ggf",
+      "name": "hghghg",
+      "category": "Mobile",
+      "price": "56889",
+      "serial_number": "jfjhgghk",
+      "release_date": "2022-04-22",
+      "Stock_units": "345",
+      "Description": "hgchgfghfj"
+    },
+    {
+      "id": "rud56edi",
+      "name": "fhdjfdgkfgh",
+      "category": "Laptop",
+      "price": "4576887",
+      "serial_number": "5654776",
+      "release_date": "2022-04-22",
+      "Stock_units": "3456",
+      "Description": "good"
+    },
+    {
+      "id": "A99",
+      "name": "gyugy",
+      "category": "Laptop",
+      "price": "897",
+      "serial_number": "iuguy",
+      "release_date": "2020-04-18",
+      "Stock_units": "76",
+      "Description": "ukdtkyxd"
+    },
+    {
+      "id": "A34",
+      "name": "Apple_Product",
+      "category": "Mobile",
+      "price": "68000",
+      "serial_number": "12",
+      "release_date": "2022-05-21",
+      "Stock_units": "1",
+      "Description": "Best Product"
+    }
+  ],
+  "user": [
+    {
+      "role": "user",
+      "email": "maulik@gmail.com",
+      "pass": "maulik9554"
+    },
+    {
+      "role": "admin",
+      "email": "sayakroy@gmail.com",
+      "pass": "roy3848"
+    }
+  ]
+}
